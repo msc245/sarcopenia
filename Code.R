@@ -5,22 +5,14 @@ library(kableExtra)
 library(dplyr)
 library(ggplot2)
 library(tidyr)
-#数据处理,janitor
 library(janitor)
 library(ggalluvial)
-#关键包
 library(xgboost)
-#install.packages('rBayesianOptimization')
-#关键包
 library(rBayesianOptimization)
-#install.packages('Amelia')
-# 提供GUI
 library(Amelia)
 library(patchwork)
 #install.packages('tidyquant')
-#利用SHAP解释Xgboost模型
 library(SHAPforxgboost)
-#关键包
 library(tidyquant)
 library(tidyverse)
 library(caret)
@@ -32,7 +24,6 @@ library(xlsx)
 
 protocol_fill_color = "grey25"
 
-#开心地统一配色
 theme_bluewhite <- function (base_size = 11, base_family = "serif") {
   theme_bw() %+replace% 
     theme(
